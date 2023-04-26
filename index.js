@@ -23,19 +23,106 @@ const END_POINTS = {
         ]    
     },
     planets: {
-        
+        apiURL: `${API_URL}/planets`,
+        endpoint: 'planets',
+        data: [
+            "Name",
+            "Population",
+            "Orbital_Period",
+            "Gravity",
+            "Climate"
+        ],
+        Values: [
+            "name",
+            "population",
+            "orbital_period",
+            "gravity",
+            "climate"
+        ]
     },
     films:{
-
+        apiURL: `${API_URL}/films`,
+        endpoint: 'films',
+        data: [
+            "Title",
+            "Episode",
+            "Director",
+            "Praducer",
+            "Release_Date"
+        ],
+        Values: [
+            "title",
+            "episode_id",
+            "director",
+            "producer",
+            "release_date"
+        ]
     },
     species: {
-
+        apiURL: `${API_URL}/species`,
+        endpoint: 'species',
+        data: [
+            "Name",
+            "Classification",
+            "Designation",
+            "Height",
+            "Language"
+        ],
+        Values: [
+            "name",
+            "classification",
+            "designation",
+            "average_height",
+            "language"
+        ]
     },
     vehicles: {
-
+        apiURL: `${API_URL}/vehicles`,
+        endpoint: 'vehicles',
+        data: [
+            "Name",
+            "Model",
+            "Manufacturer",
+            "Cost",
+            "Max Speed",
+            "Passengers",
+            "Class",
+            "Capacity"
+        ],
+        Values: [
+            "name",
+            "model",
+            "manufacturer",
+            "cost_in_credits",
+            "max_atmosphering_speed",
+            "passengers",
+            "vehicles_class",
+            "cargo_capacity"
+        ]
     }, 
     starships: {
-
+        apiURL: `${API_URL}/starships`,
+        endpoint: 'starships',
+        data: [
+            "Name",
+            "Model",
+            "Manufacturer",
+            "Cost",
+            "Max Speed",
+            "Passengers",
+            "Class",
+            "Capacity"
+        ],
+        Values: [
+            "name",
+            "model",
+            "manufacturer",
+            "cost_in_credits",
+            "max_atmosphering_speed",
+            "passengers",
+            "starship_class",
+            "cargo_capacity"
+        ]
     }
 }
 
